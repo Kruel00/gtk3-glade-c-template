@@ -2,8 +2,8 @@ SHELL ?= /bin/sh
 
 #app info
 VERSION    ?= 0.0.1
-TARGET     ?= template_app
-NAME       ?= Template App
+TARGET     ?= eraser
+NAME       ?= eraser App
 #APP_ID can start with a website or email in reverse url format
 APP_ID     ?= com.email.name.$(TARGET)
 #APP_PREFIX is APP_ID converted to a path.

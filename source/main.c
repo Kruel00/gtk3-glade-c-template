@@ -26,6 +26,7 @@ int main(int argc, char* argv[])
         g_object_unref(builder);
 
         gtk_widget_show(window);
+        
         gtk_main();
         return 0;
 }
@@ -34,3 +35,4 @@ void on_window_main_destroy()
 {
         gtk_main_quit();
 }
+
